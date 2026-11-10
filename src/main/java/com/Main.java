@@ -1,4 +1,4 @@
-package org.example;
+package com;
 
 public class Main {
     static void main() {
