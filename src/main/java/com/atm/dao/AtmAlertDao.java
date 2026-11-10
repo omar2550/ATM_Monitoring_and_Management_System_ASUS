@@ -1,6 +1,6 @@
 package com.atm.dao;
 
-import com.atm.model.AlertType;
+import com.atm.enums.AlertType;
 import com.atm.model.AtmAlert;
 
 import java.sql.ResultSet;

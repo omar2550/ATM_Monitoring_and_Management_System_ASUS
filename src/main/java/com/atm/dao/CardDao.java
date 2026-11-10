@@ -1,7 +1,7 @@
 package com.atm.dao;
 
 import com.atm.model.Card;
-import com.atm.model.CardStatus;
+import com.atm.enums.CardStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

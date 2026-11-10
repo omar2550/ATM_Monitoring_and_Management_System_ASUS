@@ -8,11 +8,6 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * transactions + (transfer_details / deposit_details / pin_change_details).
- * الـ associations (session / atm / account / destination / card) بتتحفظ من TransactionContext
- * وبتتجاب بـ findContext(...).
- */
 public class TransactionDao extends BaseDao {
 
     private static final String SELECT =

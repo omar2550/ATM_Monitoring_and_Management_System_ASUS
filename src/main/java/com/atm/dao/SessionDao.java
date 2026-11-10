@@ -1,8 +1,8 @@
 package com.atm.dao;
 
-import com.atm.model.AuthMethod;
+import com.atm.enums.AuthMethod;
 import com.atm.model.Session;
-import com.atm.model.SessionStatus;
+import com.atm.enums.SessionStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

@@ -3,14 +3,13 @@ package com.atm.dao;
 import com.atm.model.Admin;
 import com.atm.model.Customer;
 import com.atm.model.User;
-import com.atm.model.UserStatus;
+import com.atm.enums.UserStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
-/** users (Customer / Admin في جدول واحد، بيتفرقوا بعمود role). */
 public class UserDao extends BaseDao {
 
     private static final String SELECT =

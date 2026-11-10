@@ -1,6 +1,6 @@
 package com.atm.dao;
 
-import com.atm.model.AuditAction;
+import com.atm.enums.AuditAction;
 import com.atm.model.AuditLog;
 
 import java.sql.ResultSet;

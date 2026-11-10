@@ -1,8 +1,8 @@
 package com.atm.dao;
 
 import com.atm.model.Account;
-import com.atm.model.AccountStatus;
-import com.atm.model.AccountType;
+import com.atm.enums.AccountStatus;
+import com.atm.enums.AccountType;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

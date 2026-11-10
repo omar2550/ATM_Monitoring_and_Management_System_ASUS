@@ -1,7 +1,7 @@
 package com.atm.dao;
 
 import com.atm.model.Atm;
-import com.atm.model.AtmStatus;
+import com.atm.enums.AtmStatus;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

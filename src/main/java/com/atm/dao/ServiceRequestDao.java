@@ -1,7 +1,7 @@
 package com.atm.dao;
 
-import com.atm.model.RequestStatus;
-import com.atm.model.RequestType;
+import com.atm.enums.RequestStatus;
+import com.atm.enums.RequestType;
 import com.atm.model.ServiceRequest;
 
 import java.sql.ResultSet;

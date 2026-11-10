@@ -4,18 +4,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.function.Supplier;
 
-/**
- * Unit of work بسيط: كل الـ DAO calls اللي جوه Tx.run(...) بتشتغل على نفس الاتصال،
- * يا كلها تتحفظ (commit) يا كلها تتلغي (rollback).
- *
- * <pre>
- *   Tx.run(() -> {
- *       accountDao.update(a);
- *       cassetteDao.update(c);
- *   });
- * </pre>
- * لو اتنادى Tx.run جوه Tx.run تانية، بيكمل في نفس الـ transaction (join).
- */
 public final class Tx {
 
     private static final ThreadLocal<Connection> CURRENT = new ThreadLocal<>();

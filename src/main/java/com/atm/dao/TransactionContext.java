@@ -1,9 +1,5 @@
 package com.atm.dao;
 
-/**
- * الـ associations بتاعة Transaction (مش موجودة كـ attributes في الـ UML):
- * الجلسة اللي نفّذتها، الـ ATM، الحساب (ledger)، وحسب النوع: حساب الوجهة (Transfer) أو الكارت (PinChange).
- */
 public record TransactionContext(String sessionId, long atmId, String accountNumber,
                                  String destinationAccount, String cardNumber) {
 
